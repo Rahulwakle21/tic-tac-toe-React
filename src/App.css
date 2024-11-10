@@ -1,0 +1,29 @@
+.game{
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.status{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.board{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+.cell{
+  width: 100px;height: 100px;
+  font-size: 36px;
+  border: 2px solid gray;
+  cursor: pointer;
+}
+.cell:hover{
+  background-color: rgb(222, 220, 220);
+  transition: 0.6s;
+}
